@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter Day: ");
+        int Day = sc.nextInt();
+
+        if (Day >= 1) {
+            System.out.print("MONDAY");
+        } else if (Day >= 2) {
+            System.out.print("TUESDAY");
+        } else if (Day >= 3) {
+            System.out.print("WEDNESDAY");
+        } else if (Day >= 4) {
+            System.out.print("THURSDAY");
+        } else if (Day >= 5) {
+            System.out.print("FRIDAY");
+        } else if (Day >= 6) {
+            System.out.print("THURSDAY"); 
+        } else if (Day >= 7) {
+            System.out.print("SUNDAY"); 
+        }
+        else {
+            System.out.print("Invalid");
+        }
+    }
+}
